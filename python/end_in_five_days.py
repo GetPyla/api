@@ -16,7 +16,7 @@ fields = "firstname,lastname,email,startDate,lifecycle"
 
 def get_users():
     """
-    Retrieve list of users who arrives in 5 days
+    Retrieve list of users who leave in 5 days
     """
     r = requests.get(
         '%s/users?fields=%s&endDate=eq:%s' % (get_api_endpoint(), fields, in_five_days), 

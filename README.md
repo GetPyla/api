@@ -21,5 +21,9 @@ send_created_users.py
 ### How to send users that the manager did not onboard yet
 send_waiting_users_to_manager.py
 
-### Get list of users who arrives in five days
+### Get list of users who arrive in five days
 start_in_five_days.py
+
+
+### Get list of users who leave in five days
+end_in_five_days.py

@@ -16,7 +16,8 @@ def get_token():
         data={
             'client_id': API_CLIENT_ID,
             'client_secret': API_CLIENT_SECRET,
-            'grant_type': 'client_credentials'
+            'grant_type': 'client_credentials',
+            'scope': '2jJO5LQz'
         })
 
     data = r.json()
